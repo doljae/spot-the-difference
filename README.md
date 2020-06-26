@@ -90,8 +90,12 @@ After downloading and extracting the repo, use android studio to build and run i
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+![a2](https://user-images.githubusercontent.com/37795866/85825552-7d78eb80-b7bd-11ea-9e92-5bc9a8900fc8.JPG)
+![a3](https://user-images.githubusercontent.com/37795866/85825554-7eaa1880-b7bd-11ea-9807-e18749aafeff.JPG)
+
 The general usage is exactly the same as the spot the difference game.<br>
 Please refer to the video below for detailed instructions.
+
 
 
 <!-- ROADMAP -->
