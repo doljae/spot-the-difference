@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "159951731205",
+    "firebase_url": "https://spotdifference-e1d88.firebaseio.com",
+    "project_id": "spotdifference-e1d88",
+    "storage_bucket": "spotdifference-e1d88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159951731205:android:8f0af21b29ca7b28ab3a6c",
+        "android_client_info": {
+          "package_name": "com.example.spotdifference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159951731205-ho18o9af0js557rcc4vfs9i6vrd7sodi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBONkmYOEmRYWKHXwQ-xFQgDiKZbdQtH6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159951731205-ho18o9af0js557rcc4vfs9i6vrd7sodi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
