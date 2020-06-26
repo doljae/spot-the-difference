@@ -17,11 +17,7 @@
 -->
 
 [![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-![tensorflow badge](https://img.shields.io/badge/tensorflow-2.2.0-blue)
-![keras badge](https://img.shields.io/badge/keras-2.4.0-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-1.2.0-brightgreen)
-![scipy](https://img.shields.io/badge/scipy-1.2.0-brightgreen)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 ![logo](https://user-images.githubusercontent.com/37795866/85819895-0b4dda00-b7b0-11ea-8ffb-9cd137476258.png)
