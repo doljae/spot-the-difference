@@ -36,7 +36,7 @@
   <p align="center">
     Graduation project using image conversion & GAN
     <br />
-    <a href="https://github.com/doljae/convert_image_maker"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/doljae/spot_the_difference"><strong>Explore the docs »</strong></a>
     <br />
     <br />
 <!--     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
@@ -59,7 +59,6 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [About GAN Model...](#About-GAN-Model)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -70,49 +69,42 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-When you enter an image, it creates a transformed image with some modifications to the objects inside the original image.<br>
+This project was developed as an Android application using  <a href="https://github.com/doljae/convert_image_maker"><strong>Convert Image Maker</strong>.
 
-Brief description
 
 ### Motivation
+The spot the difference game was implemented as an Android application.<br>
+The point was to be able to play the game with a new image every time by converting the input image in real time, rather than the image data prepared in advance.
 
 ### Built With
-
-* [Python 3.7](https://www.python.org/)
+* [Android](https://www.android.com/intl/ko_kr/)
+* [Android Studio](https://developer.android.com/studio)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* OpenCV with contrib modules
-```sh
-pip install opencv-contrib-python
-```
+
 
 ### Installation
 
-1. Complete the prerequisite settings
+After downloading and extracting the repo, use android studio to build and run it.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+The general usage is exactly the same as the spot the difference game.<br>
+Please refer to the video below for detailed instructions.
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/doljae/convert_image_maker/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/doljae/spot_the_difference/issues) for a list of proposed features (and known issues).
 
 
 ## Release History
-* 2.1.5
-    * CHAGNE: Updated guide for image conversion with GAN model (2/3)
-    * CHAGNE: Directory & structure description
-* 2.1.0
-    * CHAGNE: Updated guide for image conversion with GAN model (1/3)
-    * CHAGNE: Upload the created GAN model file (.h5) to an external drive.
 * 2.0.0
     * CHAGNE: Code refactoring(2/2)
     * CHANGE: Update docs (module code remains unchanged)
@@ -120,9 +112,8 @@ See the [open issues](https://github.com/doljae/convert_image_maker/issues) for 
     * CHAGNE: Code refactoring(1/2)
 * 1.0.0
     * The first release
-    * FIX: Crash when calling GAN model file(.h5) with absolute directory
 * 0.5.0
-    * The first function test
+    * The first application test
 * 0.2.0
     * Work in progress
 
@@ -132,7 +123,7 @@ See the [open issues](https://github.com/doljae/convert_image_maker/issues) for 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project(<https://github.com/doljae/convert_image_maker/fork>)
+1. Fork the Project(<https://github.com/doljae/spot_the_difference/fork>)
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
@@ -143,7 +134,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the `GPLv3` License. See [`LICENSE`](https://github.com/doljae/convert_image_maker/blob/master/LICENSE.md) for more information.
+Distributed under the `GPLv3` License. See [`LICENSE`](https://github.com/doljae/spot_the_difference/blob/master/LICENSE.md) for more information.
 
 
 
@@ -154,7 +145,7 @@ Distributed under the `GPLv3` License. See [`LICENSE`](https://github.com/doljae
 * Jinkyung Choi - twin7014@naver.com
 
 
-Project Link: [https://github.com/doljae/convert_image_maker/](https://github.com/doljae/convert_image_maker/)
+Project Link: [https://github.com/doljae/convert_image_maker/](https://github.com/doljae/spot_the_difference/)
 
 
 
