@@ -2,15 +2,15 @@ package com.example.spotdifference;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class popupActivity extends AppCompatActivity {
-
-    Button okBtn;
+public class restart extends AppCompatActivity {
+    Button restartButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +18,19 @@ public class popupActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_popup);
+        setContentView(R.layout.activity_restart);
 
-        okBtn = (Button)findViewById(R.id.okBtn);
+        //restart Button Event
+        restartButton = findViewById(R.id.restartButton);
+
     }
 
-    public void mOk(View v){
+    public void restart(View v){
         finish();
+        Intent intent = new Intent(getApplicationContext(),Game.class);
+        startActivity(intent);
     }
+
 
     @Override
     public boolean onTouchEvent(MotionEvent event){

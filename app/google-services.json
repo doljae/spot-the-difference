@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "159951731205-nhe9tbm87eff5ud59tjn7hb57785o5cm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spotdifference",
+            "certificate_hash": "de0773f69aefe587fd7c11fd9c9e59ab9d92d481"
+          }
+        },
+        {
           "client_id": "159951731205-ho18o9af0js557rcc4vfs9i6vrd7sodi.apps.googleusercontent.com",
           "client_type": 3
         }

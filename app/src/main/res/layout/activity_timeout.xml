@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="800dp"
+    android:layout_height="600dp"
+    android:background="@drawable/timeout">
+
+      <Button
+                android:id="@+id/backButton"
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="330dp"
+                android:background="@drawable/back"
+                android:backgroundTint="#00ff0000"
+                android:onClick="mOk"/>
 
 </LinearLayout>

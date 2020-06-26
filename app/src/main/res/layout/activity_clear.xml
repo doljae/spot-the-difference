@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="600dp"
+    android:background="@drawable/clear">
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="366dp"
+       android:layout_marginLeft="284dp"
+        android:background="@drawable/back"
+        android:backgroundTint="#00ff0000"
+        android:onClick="home" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="368dp"
+        android:layout_marginLeft="410dp"
+        android:background="@drawable/back"
+        android:backgroundTint="#00ff0000"
+        android:onClick="next" />
+
+
+</RelativeLayout>

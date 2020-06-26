@@ -6,82 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/game"
+    android:background="@drawable/background"
     >
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="900px"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="80px"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50px"
-       >
-        <Button
-            android:id="@+id/timer"
-            android:layout_width="380px"
-            android:layout_height="150px"
-            android:backgroundTint="@color/buttonColor"
-            android:background="@drawable/button_background"
-            android:layout_margin="15px"/>
-        <Button
-            android:id="@+id/gameNum"
-            android:layout_width="380px"
-            android:layout_height="150px"
-            android:backgroundTint="@color/buttonColor"
-            android:background="@drawable/button_background"
-            android:layout_margin="15px"/>
-        <Button
-            android:id="@+id/answerNum"
-            android:layout_width="380px"
-            android:layout_height="150px"
-            android:backgroundTint="@color/buttonColor"
-            android:background="@drawable/button_background"
-            android:layout_margin="15px"/>
-        <Button
-            android:id ="@+id/hint"
-            android:layout_width="380px"
-            android:layout_height="150px"
-            android:text="HINT"
-            android:textSize="60px"
-            android:backgroundTint="@color/buttonColor"
-            android:background="@drawable/button_background"
-            android:layout_margin="15px"/>
-        <Button
-            android:id="@+id/back"
-            android:layout_width="380px"
-            android:layout_height="150px"
-            android:text="BACK"
-            android:textSize="60px"
-            android:backgroundTint="@color/buttonColor"
-            android:background="@drawable/button_background"
-            android:layout_margin="15px"/>
+        android:layout_height="wrap_content">
 
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="500px"
+        android:layout_height="200px"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/help"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="50dp"/>
 
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="500px"
+        android:layout_height="200px"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/start"
+    />
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80px"
-        >
-            <ImageView
-                android:id="@+id/leftImage"
-                android:layout_width="950px"
-                android:layout_height="900px"
-                android:layout_marginLeft="50px"
-                android:background="@android:color/white"/>
-
-        <LinearLayout
-            android:id="@+id/touchView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/rightImage"
-                android:layout_width="950px"
-                android:layout_height="900px"
-                android:layout_marginLeft="30px"
-                android:layout_marginRight="50px"
-                android:background="@android:color/white"/>
-        </LinearLayout>
-    </LinearLayout>
-
-
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splash"
+    tools:context=".SplashActivity"
     android:background="@drawable/background">
 
     <ImageView
@@ -22,12 +22,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="900px">
 
-        <Button
-            android:id="@+id/startButton"
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleLogin"
             android:layout_width="600px"
             android:layout_height="200px"
-            android:background="@drawable/start"
+            android:layout_centerInParent="true"
             />
 
+
     </RelativeLayout>
+
 </RelativeLayout>

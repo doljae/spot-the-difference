@@ -2,15 +2,16 @@ package com.example.spotdifference;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class popupActivity extends AppCompatActivity {
+public class clear extends AppCompatActivity {
 
-    Button okBtn;
+    Button nextButton,homeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,13 +19,23 @@ public class popupActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_popup);
+        setContentView(R.layout.activity_clear);
 
-        okBtn = (Button)findViewById(R.id.okBtn);
+        //Back Button Event
+        nextButton = findViewById(R.id.nextButton);
+        homeButton = findViewById(R.id.homeButton);
     }
 
-    public void mOk(View v){
+    public void home(View v){
         finish();
+        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void next(View v){
+        finish();
+        Intent intent = new Intent(getApplicationContext(),Game.class);
+        startActivity(intent);
     }
 
     @Override
@@ -41,4 +52,5 @@ public class popupActivity extends AppCompatActivity {
         //안드로이드 백버튼 막기
         return;
     }
+
 }

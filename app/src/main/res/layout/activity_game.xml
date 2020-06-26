@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Game">
+    tools:context=".Game"
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        >
+        <TextView
+            android:layout_marginLeft="50px"
+            android:id="@+id/timer"
+            android:layout_width="350px"
+            android:layout_height="130px"
+            android:paddingBottom="20px"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/buttonColor"
+            android:textStyle="bold"/>
+
+        <Button
+            android:paddingBottom="20px"
+            android:layout_marginLeft="850px"
+            android:id ="@+id/pauseButton"
+            android:layout_width="350px"
+            android:layout_height="130px"
+            android:text="PAUSE"
+            android:textSize="35dp"
+            android:backgroundTint="@color/buttonColor"
+            android:background="@drawable/button_background"
+            />
+        <Button
+            android:paddingBottom="20px"
+            android:layout_marginLeft="30px"
+            android:id="@+id/backButton"
+            android:layout_width="350px"
+            android:layout_height="130px"
+            android:text="BACK"
+            android:textSize="35dp"
+            android:backgroundTint="@color/buttonColor"
+            android:background="@drawable/button_background"
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        >
+        <ImageView
+            android:id="@+id/leftImage"
+            android:layout_width="950px"
+            android:layout_height="900px"
+            android:layout_marginLeft="50px"
+            android:background="@android:color/white"
+            />
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/rightImage"
+                android:layout_width="950px"
+                android:layout_height="900px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="50px"
+                android:background="@android:color/white"/>
+            <com.example.spotdifference.CustomView
+                android:layout_width="950px"
+                android:layout_height="900px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="50px"
+                android:layout_centerInParent="true"
+                android:background="#00ff0000"
+
+                />
+
+        </FrameLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_marginRight="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="50px"
+        android:layout_width="2000px"
+        android:layout_height="90px"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progress="7"
+        android:max="10"
+        android:id="@+id/progressBar1"/>
+
+
+</LinearLayout>
